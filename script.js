@@ -15,7 +15,8 @@ document.getElementById("loginButton").addEventListener("click",function(e){
     console.log(mobileNumberValue, pinNumberValue);
 
     if(mobileNumberValue === mobileNumber && pinNumberValue === pinNumber){
-        console.log("all value match");
+        // console.log("all value match");
+        window.location.href ="./main.html"
     }else{
         console.log("invalid credentials");
     }
